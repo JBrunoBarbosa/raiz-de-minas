@@ -1,6 +1,6 @@
 <?php
 
 include_once("index.html");
-include_once("points.html");
+include_once("tourist-spots.html");
 
 ?>
