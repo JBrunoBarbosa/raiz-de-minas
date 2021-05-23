@@ -5,9 +5,10 @@
     <title>Raiz de Minas</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="./assets/logo.png" type="image/icon type">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="all.min.css"/>
+    <link rel="icon" href="./assets/logo.png" type="image/icon type"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet"/>
 </head>
 
 <body>
@@ -16,12 +17,21 @@
         <a href="https://raizdeminas.herokuapp.com/"><img id="logo" src="./assets/logo.png"> </a>
         
         <div id="header-body">
-            <a href="#">Início</a>
-            <a href="#about-us-page">Quem Somos</a>
-            <a href="#concepts-page">Conceitos</a>
-            <a href="#">Produtos</a>
-            <a href="#">Contato</a>
+            
+            <a href="#" onclick="closeMenu()">Início</a>
+            <a href="#about-us-page" onclick="closeMenu()">Quem Somos</a>
+            <a href="#concepts-page" onclick="closeMenu()">Conceitos</a>
+            <a href="#"onclick="closeMenu()">Produtos</a>
+            <a href="#"onclick="closeMenu()">Contato</a>
+                
         </div>
+
+        <input type="checkbox" id="check" onchange="verifyMenuClicked(this)">
+        <label for="check" class="check-btn">
+            <img src="./assets/menu.png" />
+        </label>
+
+        
     </div>
 
     <div id="home-page">
@@ -85,6 +95,7 @@
         </div>
     </div>
 
+    <script src="./index.js"></script>
 </body>
 
 </html>
