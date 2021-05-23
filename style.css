@@ -82,7 +82,6 @@ p, h1 {
         width: 80px;
     }
 
-
     #header-body {
         position: fixed;
         width: 100%;
@@ -98,7 +97,8 @@ p, h1 {
         color: white;
         text-decoration: none;
         display: block;
-        padding-top: 40px;
+        padding-top: 80px;
+        font-size: 60px;
         text-transform: uppercase;
     }
 
