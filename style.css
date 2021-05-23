@@ -258,37 +258,3 @@ button.navbar-toggler {
     }
 
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
-        font-weight: 700;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-        font-weight: 700;
-    }
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .navbar-expand-lg .navbar-collapse{
-        justify-content: flex-end !important;
-        margin-right:30px;
-
-    }
-
-
-}
