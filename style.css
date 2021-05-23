@@ -141,8 +141,6 @@ div#carouselSlidesOnly {
     z-index: 20;
 }
 
-
-
 button.navbar-toggler {
     margin-right: 7%;
 }
@@ -151,13 +149,53 @@ button.navbar-toggler {
     padding-left:40px;
 }
 
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+    margin-right:30px;
+
+}
+.carousel-content h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#mapa img {
+    border-radius: 10%;
+    border: 1px solid #009148;
+}
+
+#mapa h1 {
+    color: #009148;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#mapa p {
+    color: #494d4b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+
+    
+    #mapa h1 {
+        font-size: 30px;
+    }
+    
+    #mapa p {
+        font-size: 15px;
+    }
 
     .carousel-content h1{
         color: white;
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
     }
 
@@ -197,16 +235,4 @@ button.navbar-toggler {
         font-weight: 700;
     }
 
-}
-
-.navbar-expand-lg .navbar-collapse{
-    justify-content: flex-end !important;
-    margin-right:30px;
-
-}
-.carousel-content h1{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
 }
