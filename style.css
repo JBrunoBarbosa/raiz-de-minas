@@ -60,7 +60,7 @@ p, h1 {
     display: none;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 990px) {
     .check-btn{
         display: block;
     }
