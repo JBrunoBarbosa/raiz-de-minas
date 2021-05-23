@@ -151,14 +151,8 @@ button.navbar-toggler {
     padding-left:40px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
 
     .carousel-content h1{
         color: white;
@@ -205,56 +199,14 @@ button.navbar-toggler {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 900px) {
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-    }
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+    margin-right:30px;
 
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-        font-weight: 700;
-    }
-
-    body #about-us-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #about-us-page p {
-        padding-top: 10%;
-        font-size: 15px;
-        padding-right: 10%;
-    }
-
-    body #about-us-page img {
-        margin: 0%;
-        width: 80%;
-        height: 80%;
-    }
-
-    body #concepts-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h2 {
-        padding-top: 10%;
-        font-size: 50px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h3 {
-        padding-top: 10%;
-        font-size: 28px;
-        font-weight: 700;
-    }
-
+}
+.carousel-content h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
