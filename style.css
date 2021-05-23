@@ -180,8 +180,58 @@ button.navbar-toggler {
     font-weight: 500;
 }
 
+#produtos {
+    padding-top: 7%;
+}
+
+#produtos img{
+    height: 80%;
+    height: 80%;
+    border-radius: 10%;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#produtos img:hover{
+    transform: scale(1.5);
+}
+
+
+#produtos p {
+    color: #009148;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+#produtos h1 {
+    color: #009148;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+
+    #produtos img{
+        margin-left: 3%;
+        height: 60%;
+        height: 60%;
+    }
+    
+    #produtos {
+        padding-top: 30%;
+    }
+
+    #produtos h1 {
+        font-size: 40px;
+    }
+
+    #produtos p {
+        font-size: 14px;
+    }
 
     #concepts-page{
         padding-top: 20%;
