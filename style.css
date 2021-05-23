@@ -67,6 +67,7 @@ p, h1 {
 
     #header{
         height: 10%;
+        width: 110%;
     }
 
     #logo{
@@ -93,6 +94,23 @@ p, h1 {
 
     }
 
+    body #home-page h1{
+        font-size: 40px;
+        top:20%;
+    }
+
+    body #home-page {
+        height: 35%;
+        width: 110%;
+        vertical-align: text-top;
+    }
+
+    body #home-page img{
+        margin-top:14.5%;
+        height: 100%;
+        width: 100%;
+    }
+
     #header #header-body a{
         color: white;
         text-decoration: none;
@@ -101,6 +119,31 @@ p, h1 {
         font-size: 60px;
         text-transform: uppercase;
     }
+
+    body #about-us-page {
+        position: relative;
+        top: -1.9%;
+        height: 110%;
+        width: 110%;
+        text-align: center;
+    }
+
+    body #about-us-page h1 {
+        padding-top: 20%;
+        font-size:  80px;
+        padding-left: 0px;
+    }
+
+    body #about-us-page p {
+        font-size:  40px;
+        width: 80%;
+    }
+
+    body #about-us-page img{
+        position: relative;
+        bottom:30%;
+    }
+
 
 }
 
@@ -123,10 +166,10 @@ p, h1 {
     width: 100%;
     height: 100vh;
     margin-top: 20px;
-
 }
 
 #about-us-page {
+    overflow: hidden;
     width: 100%;
     height: 100%;
     background-image: url("./assets/tree.png");
@@ -143,19 +186,17 @@ p, h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     padding-left: 10%;
-    left: 10%;
     margin-right: 30px;
     font-weight: 700;
 }
 
 #about-us-page p {
-    position: absolute;
     color: white;
     width: 45%;
     padding-top: 3%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    left: 10%;
+    padding-left: 10%;
     font-weight: 500;
     text-align: justify;
 }
@@ -214,8 +255,6 @@ p, h1 {
 #home-page h1{
     position: absolute;
     color: white;
-    margin: 0;
-    position: absolute;
     top: 50%;
     margin-left: 5%;
     font-family: 'Montserrat', sans-serif;
