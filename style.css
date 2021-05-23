@@ -49,7 +49,6 @@
 
 #about-us-page p {
     color: white;
-
     padding-top: 3%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -125,7 +124,8 @@
     position:absolute;
 }
 
-div#mapa {
+div#mapa-ecoponto {
+    padding-top:1%;
     background-color:#f7f7f7
 }
 
@@ -161,19 +161,19 @@ button.navbar-toggler {
     font-weight: 700;
 }
 
-#mapa img {
+#mapa-ecoponto img {
     border-radius: 10%;
     border: 1px solid #009148;
 }
 
-#mapa h1 {
+#mapa-ecoponto h1 {
     color: #009148;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 700;
 }
 
-#mapa p {
+#mapa-ecoponto p {
     color: #494d4b;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -183,12 +183,20 @@ button.navbar-toggler {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 
+    #concepts-page{
+        padding-top: 20%;
+    }
+
+    #about-us-page {
+        padding-top: 25%;
+    }
+
     
-    #mapa h1 {
+    #mapa-ecoponto h1 {
         font-size: 30px;
     }
     
-    #mapa p {
+    #mapa-ecoponto p {
         font-size: 15px;
     }
 
