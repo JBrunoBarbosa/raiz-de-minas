@@ -160,6 +160,13 @@ button.navbar-toggler {
         font-weight: 700;
     }
 
+    .carousel-content h1{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
     body #about-us-page h1 {
         padding-top: 10%;
         font-size: 30px;
@@ -199,11 +206,18 @@ button.navbar-toggler {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 900px) {
     .carousel-content h1{
         color: white;
         font-family: 'Montserrat', sans-serif;
         font-size: 30px;
+        font-weight: 700;
+    }
+
+    .carousel-content h1{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
         font-weight: 700;
     }
 
@@ -253,42 +267,6 @@ button.navbar-toggler {
         font-size: 40px;
         font-weight: 700;
     }
-
-    body #about-us-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #about-us-page p {
-        padding-top: 10%;
-        font-size: 15px;
-        padding-right: 10%;
-    }
-
-    body #about-us-page img {
-        margin: 0%;
-        width: 80%;
-        height: 80%;
-    }
-
-    body #concepts-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h2 {
-        padding-top: 10%;
-        font-size: 50px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h3 {
-        padding-top: 10%;
-        font-size: 28px;
-        font-weight: 700;
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -301,41 +279,6 @@ button.navbar-toggler {
         font-weight: 700;
     }
 
-    body #about-us-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #about-us-page p {
-        padding-top: 10%;
-        font-size: 15px;
-        padding-right: 10%;
-    }
-
-    body #about-us-page img {
-        margin: 0%;
-        width: 80%;
-        height: 80%;
-    }
-
-    body #concepts-page h1 {
-        padding-top: 10%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h2 {
-        padding-top: 10%;
-        font-size: 50px;
-        font-weight: 700;
-    }
-
-    body #concepts-page h3 {
-        padding-top: 10%;
-        font-size: 28px;
-        font-weight: 700;
-    }
 
 }
 
@@ -346,11 +289,6 @@ button.navbar-toggler {
         margin-right:30px;
 
     }
-    .carousel-content h1{
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-        font-weight: 700;
-    }
+
 
 }
