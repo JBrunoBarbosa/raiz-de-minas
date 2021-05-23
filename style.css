@@ -65,6 +65,24 @@ p, h1 {
         display: block;
     }
 
+    #header{
+        height: 10%;
+    }
+
+    #logo{
+        padding-top: 6px;
+        margin-left: 40px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .check-btn  img{
+        padding-top: 40px;
+        height: 80px;
+        width: 80px;
+    }
+
+
     #header-body {
         padding-top: 50px;
         position: fixed;
